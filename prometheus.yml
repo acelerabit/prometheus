@@ -24,4 +24,4 @@ scrape_configs:
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: http://159.89.55.193:9115
+        replacement: 159.89.55.193:9115
