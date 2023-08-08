@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /app
 
 # Copie os arquivos necessários para dentro do contêiner
-COPY package.json package-lock.json /app/
+COPY package.json /app/
 RUN npm install
 COPY . /app/
 
