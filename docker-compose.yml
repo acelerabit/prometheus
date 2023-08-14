@@ -31,6 +31,7 @@ services:
       - ./data/grafana:/var/lib/grafana
     ports:
       - '4000:3000'
+    user: "root:root"
   cadvisor:
     image: gcr.io/cadvisor/cadvisor:latest
     container_name: cadvisor
