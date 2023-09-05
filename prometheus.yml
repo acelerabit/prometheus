@@ -22,6 +22,10 @@ scrape_configs:
         - barauna.acelerabit.com
         - encomendex.com
         - app.diariodeobras.com.br
+        - quevende.com.br
+        - empresa.quevende.com.br
+        - admin.quevende.com.br
+        - public.quevende.com.br
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
