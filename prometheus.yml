@@ -18,6 +18,10 @@ scrape_configs:
         - admin.staging.quevende.com.br
         - candidato.staging.quevende.com.br
         - api.staging.quevende.com.br/api/metrics
+        - app.lifesprint.com.br
+        - barauna.acelerabit.com
+        - encomendex.com
+        - app.diariodeobras.com.br
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
