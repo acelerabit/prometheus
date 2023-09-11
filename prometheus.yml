@@ -26,6 +26,16 @@ scrape_configs:
         - empresa.quevende.com.br
         - admin.quevende.com.br
         - public.quevende.com.br
+        - seg-lavanderia-api.prod.acelerabit.com
+        - seg-lavanderia.prod.acelerabit.com
+        - locaseg.acelerabit.com
+        - app.seglocacoes.com.br
+        - seglocacoes.com
+        - app.brclightning.com
+        - api.brclightning.com
+        - admin.brclightning.com
+        - app.bolonobolso.com.br
+        - api.bolonobolso.com.br
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
